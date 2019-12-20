@@ -17,9 +17,9 @@ body {
   src: url("./assests/fonts/Flood.ttf");
 }
 
-/* navBar section */
+/* nav-bar section */
 
-.navBar {
+.nav-bar {
   justify-content: space-around;
   display: flex;
   flex-direction: row;
@@ -55,7 +55,7 @@ body {
   padding-top: 1%;
 }
 
-.navMenu {
+.nav-menu {
   width: 55%;
   display: flex;
   flex-direction: row;
@@ -63,7 +63,7 @@ body {
   align-items: center;
 }
 
-.menuFormatting {
+.menu-formatting {
   text-align: left;
   font-size: 16px;
   font-weight: lighter;
@@ -132,15 +132,15 @@ body {
   position: relative;
 }
 
-/* ourthings section */
+/* our-things section */
 
-.ourthings {
+.our-things {
   height: 1056px;
   background: #354463 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
-.ourthingsGrid {
+.our-things-grid {
   display: grid;
   grid-template-rows: 1fr 1fr 4fr;
   justify-items: center;
@@ -148,7 +148,7 @@ body {
   grid-row-gap: 4%;
 }
 
-.punchStatement {
+.punch-statement {
   text-align: left;
   font: Bold 44px/56px Helvetica;
   letter-spacing: 0;
@@ -187,7 +187,7 @@ body {
   width: 21%;
 }
 
-.actionDesc {
+.action-desc {
   text-align: left;
   font-size: 16px;
   font-weight: lighter;
@@ -196,360 +196,303 @@ body {
   opacity: 1;
 }
 
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  /* navBar section */
+/* our-team section */
 
-  .navBar {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: 128px;
-    justify-content: space-between;
-  }
-
-  .logo {
-    width: 39%;
-    position: relative;
-    left: 12%;
-    grid-column: 1/3;
-    text-align: left;
-    font-size: 22px;
-    font-weight: bold;
-    height: auto;
-    justify-self: first baseline;
-  }
-
-  .donate {
-    font-size: 18px;
-    font-weight: bold;
-    grid-column: 3;
-    grid-row: 1/3;
-    width: 140px;
-    height: auto;
-    text-align: center;
-    padding: 5%;
-  }
-
-  .navMenu {
-    width: 100%;
-    grid-column: 1 /3;
-    grid-row: 2;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-
-  .menuFormatting {
-    text-align: left;
-    font-size: 14px;
-    font-weight: lighter;
-    color: #354463;
-    opacity: 1;
-    text-decoration: none;
-  }
-
-  /* issue section */
-
-  .the-issue {
-    z-index: 1;
-    padding: 1%;
-    position: relative;
-    top: 47%;
-    left: 13%;
-    width: 160px;
-    height: auto;
-    text-align: center;
-    font-size: 14px;
-    background: #354463 0% 0% no-repeat padding-box;
-    letter-spacing: 0.56px;
-    color: #ffffff;
-    opacity: 1;
-  }
-
-  .climate {
-    font-family: "Flood";
-    line-height: 40px;
-    font-size: 44px;
-    width: 24vw;
-    height: auto;
-    color: white;
-    position: absolute;
-    left: 7%;
-    top: 7%;
-  }
-
-  .statement {
-    position: absolute;
-    left: 9%;
-    top: 50%;
-    background: white;
-    width: 71vw;
-    height: auto;
-    padding: 5%;
-    text-align: left;
-    font: Bold 28px/36px Helvetica;
-    letter-spacing: 0;
-    color: #354463;
-    opacity: 1;
-  }
-
-  .issue {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .issue-section {
-    background-image: url("./assests/about-us/annie-spratt-427339-unsplash.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 608px;
-    position: relative;
-  }
-
-  /* ourthings section */
-
-  .ourthings {
-    /* height: auto; */
-    background: #354463 0% 0% no-repeat padding-box;
-    opacity: 1;
-  }
-
-  .ourthingsGrid {
-    display: grid;
-    grid-template-rows: 0.4fr 1fr 4fr;
-    justify-items: center;
-    align-items: center;
-    grid-row-gap: 0%;
-  }
-
-  .punchStatement {
-    text-align: left;
-    font-size: 26px;
-    font-weight: bold;
-    letter-spacing: 0;
-    color: #ffffff;
-    opacity: 1;
-    width: 80%;
-    height: auto;
-    line-height: 132%;
-  }
-
-  .what-we-do {
-    font-size: 14px;
-    text-align: center;
-    height: auto;
-    background: white;
-    width: 160px;
-    padding: 1%;
-    position: relative;
-    left: 10%;
-    justify-self: left;
-  }
-
-  .actions {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: baseline;
-    width: 85%;
-    height: 92%;
-  }
-
-  .action {
-    text-align: left;
-    font: Bold 22px/28px Helvetica;
-    letter-spacing: 0;
-    color: #ffffff;
-    opacity: 1;
-    width: 29%;
-    height: 40%;
-  }
-
-  .actionDesc {
-    text-align: left;
-    font-size: 14px;
-    font-weight: lighter;
-    letter-spacing: -0.14px;
-    color: #ffffff;
-    opacity: 1;
-  }
+.our-team {
+  text-align: center;
+  font-size: 14px;
+  height: auto;
+  letter-spacing: 0.56px;
+  color: #ffffff;
+  opacity: 1;
+  background: #354463 0% 0% no-repeat padding-box;
+  position: relative;
+  top: 6rem;
+  width: 160px;
+  left: 10rem;
+  padding: 1%;
 }
 
-@media only screen and (max-width: 400px) {
-  /* navBar section */
-  .navBar {
-    height: 200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 1%;
-    justify-items: center;
-  }
+.meet-team {
+  text-align: left;
+  font: bold 44px/56px Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+  opacity: 1;
+  justify-self: center;
+  align-self: center;
+  width: 66%;
+}
 
-  .logo {
-    text-align: left;
-    font-size: 18px;
-    font-weight: bold;
-    height: auto;
-    width: 95%;
-  }
+.team-stats {
+  text-align: left;
+  font-size: 20px;
+  letter-spacing: -0.4px;
+  color: #354463;
+  opacity: 1;
+  width: 50%;
+}
 
-  .donate {
-    display: flex;
-    justify-content: center;
-    font-size: 18px;
-    font-weight: bold;
-    grid-column: 3/1;
-    align-items: center;
-    width: 312px;
-    height: 40px;
-  }
+.the-team-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  justify-items: center;
+  align-items: center;
+}
 
-  .navMenu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 100%;
-    align-items: flex-start;
-    width: 75%;
-  }
+.photo-section {
+  grid-row: 2;
+  grid-column: 1/3;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 70%;
+  height: 110%;
+}
 
-  .menuFormatting {
-    font-size: 14px;
-    font-weight: lighter;
-  }
+.photo-tag {
+  background: #354463;
+  opacity: 1;
+  text-align: left;
+  font-size: 14px;
+  font-weight: lighter;
+  padding: 5%;
+  letter-spacing: -0.16px;
+  color: #ffffff;
+  z-index: 1;
+  position: relative;
+  left: 11%;
+  top: -9%;
+}
 
-  /* issue section */
+/* our impact section */
 
-  .the-issue {
-    z-index: 1;
-    padding: 2%;
-    position: relative;
-    top: 47%;
-    left: 25%;
-    width: 160px;
-    height: auto;
-    text-align: center;
-    font-size: 14px;
-    background: #354463 0% 0% no-repeat padding-box;
-    letter-spacing: 0.56px;
-    color: #ffffff;
-    opacity: 1;
-  }
+.the-impact {
+  height: 670px;
+  background: transparent url("./assests/about-us/Impact\ Background.png") 0% 0%
+    no-repeat padding-box;
+  /* opacity: 0.2; */
+  background-color: #354463;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
-  .climate {
-    font-family: "Flood";
-    line-height: 40px;
-    font-size: 44px;
-    width: 40vw;
-    height: auto;
-    color: white;
-    position: absolute;
-    left: 10%;
-    top: 5%;
-  }
+.our-impact {
+  text-align: center;
+  width: 160px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: auto;
+  padding: 1%;
+}
 
-  .statement {
-    position: absolute;
-    left: 6%;
-    top: 50%;
-    background: white;
-    width: 75vw;
-    height: auto;
-    padding: 4.5%;
-    text-align: center;
-    font: Bold 22px/28px Helvetica;
-    letter-spacing: 0;
-    color: #354463;
-    opacity: 1;
-  }
+.impact-statement {
+  text-align: center;
+  font: bold 44px/56px Helvetica;
+  letter-spacing: 0;
+  color: #ffffff;
+  opacity: 1;
+  width: 50%;
+}
 
-  .issue {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-  }
+.impact-facts {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 90%;
+}
 
-  .issue-section {
-    background-image: url("./assests/about-us/annie-spratt-427339-unsplash.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-    position: relative;
-  }
+.fact {
+  text-align: center;
+  font-size: 72px;
+  line-height: 70px;
+  font-family: "flood";
+  letter-spacing: 0;
+  color: #ffffff;
+  opacity: 1;
+  width: 25%;
+  height: auto;
+}
 
-  /* ourthings section */
+.fact-desc {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: Helvetica;
+  line-height: 40px;
+}
 
-  .ourthings {
-    height: 100rem;
-    background: #354463 0% 0% no-repeat padding-box;
-    opacity: 1;
-  }
+/* lets acts section */
 
-  .ourthingsGrid {
-    display: grid;
-    grid-template-rows: 0.5fr 1fr 4fr;
-    justify-items: center;
-    align-items: center;
-    grid-row-gap: 0%;
-  }
+.lets-act {
+  background: #354463;
+}
 
-  .punchStatement {
-    text-align: center;
-    font-size: 22px;
-    font-weight: bold;
-    letter-spacing: 0;
-    color: #ffffff;
-    opacity: 1;
-    /* width: 80%; */
-    height: auto;
-    line-height: 120%;
-  }
+.lets-act-text {
+  position: relative;
+}
 
-  .what-we-do {
-    font-size: 14px;
-    text-align: center;
-    height: auto;
-    background: white;
-    width: 160px;
-    padding: 1%;
-    position: relative;
-    left: 25%;
-    justify-self: left;
-    align-self: center;
-    /* position: relative;
-    left: 10%; */
-    /* justify-self: left; */
-  }
+.lets-act-head {
+  width: 700px;
+  font-size: 60px;
+  padding: 90px 0 0 0;
+}
 
-  .actions {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: baseline;
-    width: 85%;
-    height: 92%;
-  }
+.lets-act-arrow {
+  background: #C1F7D5;
+  padding: 25px;
+  border-radius: 80px;
+  position: absolute;
+  top: 100px;
+  left: 1000px;
+}
 
-  .action {
-    text-align: left;
-    font: Bold 16px/20px Helvetica;
-    letter-spacing: 0;
-    color: #ffffff;
-    opacity: 1;
-    width: 40%;
-    height: 32%;
-  }
+.lets-act-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  column-gap: 100px;
+  padding: 300px 0 0 150px;
+  height: 530px;
+  overflow: hidden;
+}
 
-  .actionDesc {
-    text-align: left;
-    font-size: 14px;
-    font-weight: lighter;
-    letter-spacing: -0.14px;
-    color: #ffffff;
-    opacity: 1;
-  }
+.lets-act-title {
+  top: -20px;
+  background: white;
+  color: #354463;
+  left: 50px;
+}
+
+.lets-act-items {
+  background: white;
+  position: relative;
+  width: 393px;
+}
+
+.lets-act-img {
+  width: 393px;
+}
+
+.lets-act-h {padding: 20px 0px 20px 25px;font-size: 22px;}
+
+.lets-act-p {
+  padding: 15px 0 15px 20px;
+  font-size: 20px;
+}
+
+.lets-act-btn {
+  width: fit-content;
+  left: 25px;
+  position: absolute;
+}
+
+/* newsletter section */
+
+.newsletter {
+  height: 208px;
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+  grid-template-columns: 2fr 1fr 1fr;
+  display: grid;
+  align-items: center;
+  /* justify-content: right; */
+}
+
+.subscribe-news-letter {
+  justify-self: center;
+  text-align: left;
+  font: Bold 28px/36px Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+  opacity: 1;
+  width: 72%;
+  height: 41%;
+}
+
+.email {
+  /* padding: 2%; */
+  background: white;
+  border-radius: 100px;
+  width: 352px;
+  height: 48px;
+  border: 0px;
+  text-align: center;
+}
+
+.subscribe {
+  width: 160px;
+  height: 48px;
+  border: 1px;
+  border-radius: 100px;
+  background: #354463;
+  text-align: center;
+  font: Bold 18px/22px Helvetica;
+  letter-spacing: 0;
+  color: #c1f7d5;
+}
+
+/* contact us section */
+
+.green {
+  width: 192px;
+  /* border: 2px solid black; */
+  text-align: left;
+  grid-column: 1;
+  font: Bold 22px/28px Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+  opacity: 1;
+}
+
+.details-element {
+  width: 192px;
+  height: auto;
+  /* border: 2px solid black; */
+  text-align: left;
+  /* justify-self: center; */
+  font: Regular 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #354463;
+  opacity: 1;
+}
+
+.details-item {
+  /* border: 2px solid black; */
+  text-align: left;
+  font: Light 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+  opacity: 1;
+}
+
+.details-slogan {
+  grid-column: 5;
+  text-align: left;
+  /* grid-column: 1; */
+  font-family: "flood";
+  color: #354463;
+  font-size: 44px;
+  /* border: 2px solid black; */
+  width: 181px;
+  height: auto;
+  /* margin: auto; */
+  line-height: 40px;
+}
+
+.details {
+  margin: auto;
+  padding: 5%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  /* align-items: center; */
+  /* grid-gap: 2em; */
+  /* margin: auto; */
+  /* justify-content: space-evenly; */
 }

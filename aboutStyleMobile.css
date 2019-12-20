@@ -1,0 +1,320 @@
+@media only screen and (max-width: 400px) {
+    /* nav-bar section */
+    .nav-bar {
+      height: 200px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 1%;
+      justify-items: center;
+    }
+  
+    .logo {
+      text-align: left;
+      font-size: 18px;
+      font-weight: bold;
+      height: auto;
+      width: 95%;
+    }
+  
+    .donate {
+      display: flex;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: bold;
+      grid-column: 3/1;
+      align-items: center;
+      width: 312px;
+      height: 40px;
+    }
+  
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 100%;
+      align-items: flex-start;
+      width: 75%;
+    }
+  
+    .menu-formatting {
+      font-size: 14px;
+      font-weight: lighter;
+    }
+  
+    /* issue section */
+  
+    .the-issue {
+      z-index: 1;
+      padding: 2%;
+      position: relative;
+      top: 47%;
+      left: 25%;
+      width: 160px;
+      height: auto;
+      text-align: center;
+      font-size: 14px;
+      background: #354463 0% 0% no-repeat padding-box;
+      letter-spacing: 0.56px;
+      color: #ffffff;
+      opacity: 1;
+    }
+  
+    .climate {
+      font-family: "Flood";
+      line-height: 40px;
+      font-size: 44px;
+      width: 40vw;
+      height: auto;
+      color: white;
+      position: absolute;
+      left: 10%;
+      top: 5%;
+    }
+  
+    .statement {
+      position: absolute;
+      left: 6%;
+      top: 50%;
+      background: white;
+      width: 75vw;
+      height: auto;
+      padding: 4.5%;
+      text-align: center;
+      font: Bold 22px/28px Helvetica;
+      letter-spacing: 0;
+      color: #354463;
+      opacity: 1;
+    }
+  
+    .issue {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+  
+    .issue-section {
+      background-image: url("./assests/about-us/annie-spratt-427339-unsplash.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      position: relative;
+    }
+  
+    /* our-things section */
+  
+    .our-things {
+      height: 100rem;
+      background: #354463 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+  
+    .our-things-grid {
+      display: grid;
+      grid-template-rows: 0.5fr 1fr 4fr;
+      justify-items: center;
+      align-items: center;
+      grid-row-gap: 0%;
+    }
+  
+    .punch-statement {
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 0;
+      color: #ffffff;
+      opacity: 1;
+      /* width: 80%; */
+      height: auto;
+      line-height: 120%;
+    }
+  
+    .what-we-do {
+      font-size: 14px;
+      text-align: center;
+      height: auto;
+      background: white;
+      width: 160px;
+      padding: 1%;
+      position: relative;
+      left: 25%;
+      justify-self: left;
+      align-self: center;
+    }
+  
+    .actions {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      width: 85%;
+      height: 92%;
+    }
+  
+    .action {
+      text-align: left;
+      font: Bold 16px/20px Helvetica;
+      letter-spacing: 0;
+      color: #ffffff;
+      opacity: 1;
+      width: 40%;
+      height: 32%;
+    }
+  
+    .action-desc {
+      text-align: left;
+      font-size: 14px;
+      font-weight: lighter;
+      letter-spacing: -0.14px;
+      color: #ffffff;
+      opacity: 1;
+    }
+  
+    /* our-team section */
+  
+    .the-team {
+      height: 59rem;
+    }
+  
+    .our-team {
+      text-align: center;
+      font-size: 14px;
+  
+      letter-spacing: 0.56px;
+      color: #ffffff;
+      opacity: 1;
+      background: #354463 0% 0% no-repeat padding-box;
+      position: relative;
+      top: 3rem;
+      width: 160px;
+      left: 25%;
+      padding: 3%;
+    }
+  
+    .meet-team {
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 0;
+      color: #354463;
+      opacity: 1;
+      height: 5rem;
+      line-height: 97%;
+      width: auto;
+    }
+  
+    .team-stats {
+      text-align: justify;
+      font-size: 14px;
+      letter-spacing: -0.4px;
+      color: #354463;
+      opacity: 1;
+      height: 5rem;
+      width: 92%;
+    }
+  
+    .the-team-grid {
+      display: flex;
+      /* grid-template-rows:repeat(3,1fr);
+      grid-template-columns: none; */
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: 6rem;
+      /* grid-row-gap: 0rem; */
+    }
+  
+    .photo-section {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+      width: 100%;
+      height: auto;
+    }
+  
+    .photo-tag {
+      background: #354463;
+      opacity: 1;
+      text-align: left;
+      font-size: 14px;
+      font-weight: lighter;
+      padding: 6%;
+      letter-spacing: -0.16px;
+      color: #ffffff;
+      z-index: 1;
+      position: relative;
+      left: 0%;
+      top: -9%;
+    }
+  
+    .the-photo {
+      height: auto;
+      width: 39%;
+    }
+  
+    /* our impact section */
+  
+    .the-impact {
+      height: 55rem;
+      background: transparent url("./assests/about-us/Impact\ Background.png") 0%
+        0% no-repeat padding-box;
+      /* opacity: 0.2; */
+      background-color: #354463;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  
+    .our-impact {
+      text-align: center;
+      width: 160px;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      opacity: 1;
+      height: auto;
+      padding: 2%;
+    }
+  
+    .impact-statement {
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 0;
+      color: #ffffff;
+      opacity: 1;
+      width: 90%;
+      line-height: 1.5rem;
+      /* height:1%; */
+    }
+  
+    .impact-facts {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-around;
+      align-items: center;
+      /* width: 50%; */
+    }
+  
+    .fact {
+      text-align: center;
+      font-size: 44px;
+      line-height: 70px;
+      font-family: "flood";
+      letter-spacing: 0;
+      color: #ffffff;
+      opacity: 1;
+      width: 80%;
+      height: auto;
+    }
+  
+    .fact-desc {
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      font-family: Helvetica;
+      line-height: 1.5rem;
+    }
+  }
