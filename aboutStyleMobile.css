@@ -317,4 +317,224 @@
       font-family: Helvetica;
       line-height: 1.5rem;
     }
+
+      /* lets acts section */
+
+  .lets-act {
+    background: #354463;
+    height: 60rem;
+    overflow-x: scroll;
   }
+
+  .lets-act-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20rem;
+  }
+
+  .lets-act-statement {
+    text-align: center;
+    letter-spacing: 0;
+    color: #ffffff;
+    font-size: 44px;
+    font-family: "flood";
+    width: 90%;
+    line-height: 40px;
+  }
+
+  .lets-act-arrow {
+    background: #c1f7d5;
+    border-radius: 100%;
+    padding: 20%;
+    border: 2px solid #354463;
+    position: relative;
+    z-index: 1;
+    top: 13rem;
+    left:9.3rem;
+  }
+
+  .lets-act-container {
+    display: flex;
+    flex-direction: row;
+    width: 280%;
+    justify-content: space-evenly;
+    /* overflow: auto; */
+    /* white-space: nowrap; */
+  }
+
+  .lets-act-flex {
+    position: relative;
+    left: 2.5%;
+  }
+
+  .lets-act-img {
+    width: 90%;
+  }
+
+  .lets-act-year {
+    text-align: center;
+    width: 8rem;
+    height: auto;
+    padding: 2%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+    z-index: 1;
+    top: 2%;
+    left: 25%;
+  }
+
+  .lets-act-text {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    width: 90%;
+    height: auto;
+  }
+
+  .lets-act-item {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+    height: 16rem;
+    padding: 5%;
+  }
+
+  .lets-act-item-desc {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 7%;
+  }
+
+  .lets-act-btn {
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+    text-align: center;
+    font: Bold 18px/22px Helvetica;
+    background: #c1f7d5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    height: auto;
+    width: 10rem;
+    padding: 3%;
+    position: relative;
+    top: -2rem;
+    left: 25%;
+  }
+
+ /* newsletter section */
+
+.newsletter {
+  height: 17rem;
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  display: grid;
+  /* align-items: center; */
+}
+
+.subscribe-news-letter {
+  grid-area:1/1/1/span 2;
+  justify-self: center;
+  text-align: left;
+  font: Bold 22px/28px Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+  opacity: 1;
+  width: 95%;
+  /* height:auto; */
+}
+
+.email {
+  padding: 1%;
+  position: relative;
+  left:5%;
+  grid-area:2/1/2/2;
+  background: white;
+  border-radius: 100px;
+  font: Bold 14px/20px Helvetica;
+  width: 80%;
+  border: 0px;
+  text-align: left;
+  height:auto;
+}
+
+.subscribe {
+  padding: 5%;
+  position: relative;
+  right:20%;
+  width: 100%;
+  border: 1px;
+  border-radius: 100px;
+  background: #354463;
+  text-align: center;
+  font: Bold 16px/22px Helvetica;
+  letter-spacing: 0;
+  color: #c1f7d5;
+  height:auto;
+}
+
+/* contact us section */
+
+.green {
+  
+  /* width: 12rem; */
+  text-align: left;
+  grid-column: 1;
+  grid-row:1;
+  font: Bold 18px/22px Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+  opacity: 1;
+}
+
+.details-element {
+  width: 75%;
+  height: auto;
+  text-align: left;
+  font: Regular 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #354463;
+  opacity: 1;
+}
+
+.details-item {
+  text-align: left;
+  font: Light 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+  opacity: 1;
+}
+
+.details-slogan {
+  position: relative;
+  right:50%;
+  justify-self: center;
+  grid-row: 3;
+  grid-column: 2;
+  text-align: center;
+  font-family: "flood";
+  color: #354463;
+  font-size: 44px;
+  width: 5rem;
+  height: auto;
+  line-height: 40px;
+}
+
+.details {
+  grid-row-gap: 2rem;
+  /* grid-column-gap:10px; */
+  /* margin: auto; */
+  padding: 5%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr;
+}
+}
