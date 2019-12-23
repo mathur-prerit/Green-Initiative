@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Donate</title>
+    <link rel="stylesheet" type="text/css" href="./donationStyle.css" />
+    <link rel="stylesheet" type="text/css" href="./donationStyleMobile.css" />
+    <link rel="stylesheet" type="text/css" href="./donationStyleTablet.css" />
+  </head>
+
+  <body>
+    <div class="main-section">
+      <div class="form-donate">
+        <form class="form-details" id="form1">
+          <div class="form-heads">Your Information</div>
+          <br />
+          <div class="line-1">
+            <label class="form-tags" for="fname"
+              >FIRST NAME<br />
+              <input
+                class="form-submit-fn"
+                type="text"
+                placeholder="First name"
+                required
+              />
+            </label>
+
+            <label class="form-tags" for="fname"
+              >LAST NAME<br />
+              <input
+                class="form-submit-ln"
+                type="text"
+                placeholder="Last name"
+                required
+              />
+            </label>
+          </div>
+
+          <div class="line-2">
+            <label class="form-tags" for="address"
+              >STREET ADDRESS<br />
+              <input
+                class="form-submit-ad"
+                type="text"
+                placeholder="Street Address"
+                required
+              />
+            </label>
+          </div>
+
+          <div class="line-3">
+            <label class="form-tags" for="city"
+              >CITY<br />
+              <input
+                class="form-submit-ct"
+                type="text"
+                placeholder="City name"
+                required
+              />
+            </label>
+
+            <label class="form-tags" for="state"
+              >STATE<br />
+              <select class="form-dropdown" name="state" required>
+                <option selected>Select state</option>
+                <option value="Rajasthan">RJ</option>
+                <option value="Karnataka">KA</option>
+                <option value="Maharashtra">MH</option>
+                <option value="Delhi">DL</option>
+              </select></label
+            >
+
+            <label class="form-tags" for="zip"
+              >ZIP CODE<br />
+              <input
+                class="form-submit-zp"
+                type="tel"
+                placeholder="Zip code"
+                maxlength="6"
+                required
+              />
+            </label>
+          </div>
+
+          <div class="line-4">
+            <label class="form-tags" for="email"
+              >EMAIL ADDRESS<br />
+              <input
+                class="form-submit-em"
+                type="email"
+                placeholder="Email Address"
+                required
+              />
+            </label>
+          </div>
+          <br />
+          <div class="form-heads">Payment Information</div>
+          <br />
+
+          <div class="line-5">
+            <label class="form-tags" for="card-number"
+              >CREDIT CARD NUMBER<br />
+              <input
+                class="form-submit-cn"
+                type="number"
+                placeholder="Credit card number"
+                required
+              />
+            </label>
+          </div>
+
+          <div class="line-6">
+            <label class="form-tags" for="expiry"
+              >EXPIRATION<br />
+              <div class="mmyy">
+                <input
+                  class="form-submit-mm"
+                  type="number"
+                  placeholder="MM"
+                  min="01"
+                  max="12"
+                  maxlength="2"
+                  required
+                />
+                <input
+                  class="form-submit-yy"
+                  type="tel"
+                  placeholder="YYYY"
+                  maxlength="4"
+                  required
+                />
+              </div>
+            </label>
+
+            <label class="form-tags" for="cvv"
+              >SECURITY CODE<br />
+              <input
+                class="form-submit-cv"
+                type="number"
+                placeholder="CVC"
+                maxlength="3"
+                required
+              />
+            </label>
+          </div>
+        </form>
+        <br />
+        <div class="form-footer">
+          Click the button to confirm your donation of $10, recurring monthly.
+        </div>
+        <br />
+        <div class="footing">
+          <a class="return-home" href="../home.html">Go Back</a>
+
+          <button
+            class="form-submit-btn"
+            type="submit"
+            form="form1"
+            value="Submit"
+          >
+            Process Payment
+          </button>
+        </div>
+      </div>
+
+      <div class="give-hope">Give HOPE to those Who need It most</div>
+    </div>
+  </body>
+</html>
